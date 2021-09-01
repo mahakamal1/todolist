@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="shopping-list.png">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sec1">
+        <h1 class="center headtext" >welcome to our todo list app</h1>
+        <div class="cot row">
+            <div class="card darken-1">
+                <div class="card-content red-text">
+                <span class="card-title">Task list</span>
+                <div class="row">
+                    <form id="formTasks">
+                        <div class="input-field col s12">
+                            <input id="task-input" type="text" class="validate">
+                            <label for="task-input">New Task</label>
+                        </div>
+                        <input type="submit" value="ADD TASK" class="addTasks btn colr">
+                    </form>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <div class="input-field col s12">
+                        <input id="filter" type="text" class="validate">
+                        <label for="filter">Search</label>
+                    </div>
+                    <ul class="collection">
+                    
+                    </ul>
+                    <a class="clearTasks btn red" href="#">Clear All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
